@@ -1,8 +1,3 @@
----
-layout: default
-title: Access Request
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -161,15 +156,12 @@ title: Access Request
         document.getElementById('accessRequestForm').addEventListener('submit', function(e) {
             e.preventDefault();
             
-            const formData = {
+            var formData = {
                 requesterName: document.getElementById('requesterName').value,
                 requesterEmail: document.getElementById('requesterEmail').value,
                 company: document.getElementById('company').value,
                 accessType: document.getElementById('accessType').value,
-                reason: document.getElementById('reason').value,
-                status: 'pending',
-                requestDate: new Date().toISOString(),
-                id: 'REQ-' + Date.now()
+                reason: document.getElementById('reason').value
             };
             
             if (AccessManager.submitRequest(formData)) {
@@ -182,8 +174,8 @@ title: Access Request
         });
         
         function showMessage(type, message) {
-            const successDiv = document.getElementById('successMessage');
-            const errorDiv = document.getElementById('errorMessage');
+            var successDiv = document.getElementById('successMessage');
+            var errorDiv = document.getElementById('errorMessage');
             
             if (type === 'success') {
                 successDiv.textContent = message;
@@ -202,15 +194,15 @@ title: Access Request
         }
         
         function displayRequests() {
-            const requests = AccessManager.getAllRequests();
-            const listDiv = document.getElementById('requestsList');
+            var requests = AccessManager.getAllRequests();
+            var listDiv = document.getElementById('requestsList');
             
             if (requests.length === 0) {
                 listDiv.innerHTML = '<p>No requests found. Submit a request to get started.</p>';
                 return;
             }
             
-            let html = '';
+            var html = '';
             requests.forEach(function(request) {
                 html += '<div class="request-item">';
                 html += '<h3>Request #' + request.id + ' <span class="request-status status-' + request.status + '">' + request.status.toUpperCase() + '</span></h3>';

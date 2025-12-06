@@ -1,8 +1,3 @@
----
-layout: default
-title: Revoke Access
----
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -146,11 +141,11 @@ title: Revoke Access
     
     <script src="access-manager.js"></script>
     <script>
-        let currentFilter = null;
+        var currentFilter = null;
         
         document.getElementById('searchForm').addEventListener('submit', function(e) {
             e.preventDefault();
-            const email = document.getElementById('searchEmail').value.trim();
+            var email = document.getElementById('searchEmail').value.trim();
             
             if (email) {
                 currentFilter = email.toLowerCase();
@@ -189,9 +184,9 @@ title: Revoke Access
         }
         
         function showMessage(type, message) {
-            const successDiv = document.getElementById('successMessage');
-            const errorDiv = document.getElementById('errorMessage');
-            const warningDiv = document.getElementById('warningMessage');
+            var successDiv = document.getElementById('successMessage');
+            var errorDiv = document.getElementById('errorMessage');
+            var warningDiv = document.getElementById('warningMessage');
             
             // Hide all messages first
             successDiv.style.display = 'none';
@@ -217,8 +212,8 @@ title: Revoke Access
         }
         
         function displayRequests(emailFilter) {
-            let requests = AccessManager.getAllRequests();
-            const listDiv = document.getElementById('requestsList');
+            var requests = AccessManager.getAllRequests();
+            var listDiv = document.getElementById('requestsList');
             
             // Filter by email if provided
             if (emailFilter) {
@@ -228,7 +223,7 @@ title: Revoke Access
             }
             
             // Filter out already revoked requests for the main view
-            const activeRequests = requests.filter(function(req) {
+            var activeRequests = requests.filter(function(req) {
                 return req.status !== 'revoked';
             });
             
@@ -241,7 +236,7 @@ title: Revoke Access
                 return;
             }
             
-            let html = '';
+            var html = '';
             activeRequests.forEach(function(request) {
                 html += '<div class="request-item">';
                 html += '<div class="request-info">';
