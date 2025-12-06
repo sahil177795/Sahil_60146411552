@@ -1,0 +1,234 @@
+---
+layout: default
+title: Access Request
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Access Request - Sahil's Resume</title>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #0f0;
+            background-color: #001a00;
+            color: #0f0;
+            font-family: monospace;
+        }
+        .form-group textarea {
+            min-height: 100px;
+            resize: vertical;
+        }
+        .btn {
+            background-color: #0f0;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .btn:hover {
+            background-color: #0d0;
+        }
+        .success-message,
+        .error-message {
+            padding: 10px;
+            margin: 15px 0;
+            border-radius: 4px;
+            display: none;
+        }
+        .success-message {
+            background-color: #004d00;
+            border: 1px solid #0f0;
+            color: #0f0;
+        }
+        .error-message {
+            background-color: #4d0000;
+            border: 1px solid #f00;
+            color: #f00;
+        }
+        .request-list {
+            margin-top: 30px;
+        }
+        .request-item {
+            border: 1px solid #0f0;
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: #001a00;
+        }
+        .request-item h3 {
+            margin-top: 0;
+        }
+        .request-status {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .status-pending {
+            background-color: #4d4d00;
+            color: #ff0;
+        }
+        .status-approved {
+            background-color: #004d00;
+            color: #0f0;
+        }
+        .status-revoked {
+            background-color: #4d0000;
+            color: #f00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Request Access to Premium Content</h1>
+        <p>Fill out the form below to request access to premium content such as detailed project portfolio, code samples, or extended contact information.</p>
+        
+        <div id="successMessage" class="success-message"></div>
+        <div id="errorMessage" class="error-message"></div>
+        
+        <form id="accessRequestForm">
+            <div class="form-group">
+                <label for="requesterName">Your Name *</label>
+                <input type="text" id="requesterName" name="requesterName" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="requesterEmail">Your Email *</label>
+                <input type="email" id="requesterEmail" name="requesterEmail" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="company">Company/Organization</label>
+                <input type="text" id="company" name="company">
+            </div>
+            
+            <div class="form-group">
+                <label for="accessType">Type of Access Requested *</label>
+                <select id="accessType" name="accessType" required>
+                    <option value="">-- Select Access Type --</option>
+                    <option value="portfolio">Detailed Project Portfolio</option>
+                    <option value="code-samples">Code Samples</option>
+                    <option value="certifications">Certification Documents</option>
+                    <option value="references">Professional References</option>
+                    <option value="full-resume">Complete Resume Package</option>
+                </select>
+            </div>
+            
+            <div class="form-group">
+                <label for="reason">Reason for Request *</label>
+                <textarea id="reason" name="reason" required placeholder="Please explain why you need access..."></textarea>
+            </div>
+            
+            <button type="submit" class="btn">Submit Request</button>
+            <button type="button" class="btn" onclick="window.location.href='/'">Cancel</button>
+        </form>
+        
+        <div class="request-list">
+            <h2>Your Access Requests</h2>
+            <div id="requestsList">
+                <p>No requests found. Submit a request to get started.</p>
+            </div>
+        </div>
+        
+        <div style="margin-top: 30px;">
+            <a href="access-revoke.html" style="color: #0f0;">Revoke Access &raquo;</a> | 
+            <a href="/" style="color: #0f0;">&laquo; Back to Resume</a>
+        </div>
+    </div>
+    
+    <script src="access-manager.js"></script>
+    <script>
+        document.getElementById('accessRequestForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = {
+                requesterName: document.getElementById('requesterName').value,
+                requesterEmail: document.getElementById('requesterEmail').value,
+                company: document.getElementById('company').value,
+                accessType: document.getElementById('accessType').value,
+                reason: document.getElementById('reason').value,
+                status: 'pending',
+                requestDate: new Date().toISOString(),
+                id: 'REQ-' + Date.now()
+            };
+            
+            if (AccessManager.submitRequest(formData)) {
+                showMessage('success', 'Access request submitted successfully! You will be notified once reviewed.');
+                document.getElementById('accessRequestForm').reset();
+                displayRequests();
+            } else {
+                showMessage('error', 'Failed to submit request. Please try again.');
+            }
+        });
+        
+        function showMessage(type, message) {
+            const successDiv = document.getElementById('successMessage');
+            const errorDiv = document.getElementById('errorMessage');
+            
+            if (type === 'success') {
+                successDiv.textContent = message;
+                successDiv.style.display = 'block';
+                errorDiv.style.display = 'none';
+            } else {
+                errorDiv.textContent = message;
+                errorDiv.style.display = 'block';
+                successDiv.style.display = 'none';
+            }
+            
+            setTimeout(function() {
+                successDiv.style.display = 'none';
+                errorDiv.style.display = 'none';
+            }, 5000);
+        }
+        
+        function displayRequests() {
+            const requests = AccessManager.getAllRequests();
+            const listDiv = document.getElementById('requestsList');
+            
+            if (requests.length === 0) {
+                listDiv.innerHTML = '<p>No requests found. Submit a request to get started.</p>';
+                return;
+            }
+            
+            let html = '';
+            requests.forEach(function(request) {
+                html += '<div class="request-item">';
+                html += '<h3>Request #' + request.id + ' <span class="request-status status-' + request.status + '">' + request.status.toUpperCase() + '</span></h3>';
+                html += '<p><strong>Type:</strong> ' + request.accessType + '</p>';
+                html += '<p><strong>Date:</strong> ' + new Date(request.requestDate).toLocaleDateString() + '</p>';
+                html += '<p><strong>Requester:</strong> ' + request.requesterName + ' (' + request.requesterEmail + ')</p>';
+                if (request.company) {
+                    html += '<p><strong>Company:</strong> ' + request.company + '</p>';
+                }
+                html += '<p><strong>Reason:</strong> ' + request.reason + '</p>';
+                html += '</div>';
+            });
+            
+            listDiv.innerHTML = html;
+        }
+        
+        // Display requests on page load
+        displayRequests();
+    </script>
+</body>
+</html>

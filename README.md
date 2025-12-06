@@ -117,6 +117,18 @@ ___
 
 <br/><br/>
 ___
+
+__Access Management__
+
+___
+<br/>
+### Request Premium Access :
+Need access to detailed portfolio, certifications, or code samples? 
+* [Request Access](access-request.html) - Submit a request for premium content
+* [Revoke Access](access-revoke.html) - Manage or revoke your existing access requests
+
+<br/><br/>
+___
 The End!
 Bye World :-)
 ___

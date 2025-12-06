@@ -1,0 +1,274 @@
+---
+layout: default
+title: Revoke Access
+---
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Revoke Access - Sahil's Resume</title>
+    <style>
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 8px;
+            border: 1px solid #0f0;
+            background-color: #001a00;
+            color: #0f0;
+            font-family: monospace;
+        }
+        .btn {
+            background-color: #0f0;
+            color: #000;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        .btn:hover {
+            background-color: #0d0;
+        }
+        .btn-danger {
+            background-color: #f00;
+            color: #fff;
+        }
+        .btn-danger:hover {
+            background-color: #d00;
+        }
+        .success-message,
+        .error-message,
+        .warning-message {
+            padding: 10px;
+            margin: 15px 0;
+            border-radius: 4px;
+            display: none;
+        }
+        .success-message {
+            background-color: #004d00;
+            border: 1px solid #0f0;
+            color: #0f0;
+        }
+        .error-message {
+            background-color: #4d0000;
+            border: 1px solid #f00;
+            color: #f00;
+        }
+        .warning-message {
+            background-color: #4d4d00;
+            border: 1px solid #ff0;
+            color: #ff0;
+        }
+        .request-list {
+            margin-top: 30px;
+        }
+        .request-item {
+            border: 1px solid #0f0;
+            padding: 15px;
+            margin-bottom: 10px;
+            background-color: #001a00;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .request-info {
+            flex-grow: 1;
+        }
+        .request-actions {
+            margin-left: 15px;
+        }
+        .request-status {
+            display: inline-block;
+            padding: 3px 8px;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+        .status-pending {
+            background-color: #4d4d00;
+            color: #ff0;
+        }
+        .status-approved {
+            background-color: #004d00;
+            color: #0f0;
+        }
+        .status-revoked {
+            background-color: #4d0000;
+            color: #f00;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Revoke Access Requests</h1>
+        <p>Manage your access requests and revoke access when no longer needed.</p>
+        
+        <div id="successMessage" class="success-message"></div>
+        <div id="errorMessage" class="error-message"></div>
+        <div id="warningMessage" class="warning-message"></div>
+        
+        <h2>Search for Request</h2>
+        <form id="searchForm">
+            <div class="form-group">
+                <label for="searchEmail">Search by Email</label>
+                <input type="email" id="searchEmail" name="searchEmail" placeholder="Enter your email to find requests">
+            </div>
+            <button type="submit" class="btn">Search</button>
+            <button type="button" class="btn" onclick="showAllRequests()">Show All</button>
+        </form>
+        
+        <div class="request-list">
+            <h2>Active Access Requests</h2>
+            <div id="requestsList">
+                <p>No active requests found.</p>
+            </div>
+        </div>
+        
+        <div style="margin-top: 30px;">
+            <a href="access-request.html" style="color: #0f0;">Request Access &raquo;</a> | 
+            <a href="/" style="color: #0f0;">&laquo; Back to Resume</a>
+        </div>
+    </div>
+    
+    <script src="access-manager.js"></script>
+    <script>
+        let currentFilter = null;
+        
+        document.getElementById('searchForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const email = document.getElementById('searchEmail').value.trim();
+            
+            if (email) {
+                currentFilter = email.toLowerCase();
+                displayRequests(currentFilter);
+            } else {
+                showMessage('error', 'Please enter an email address to search.');
+            }
+        });
+        
+        function showAllRequests() {
+            currentFilter = null;
+            document.getElementById('searchEmail').value = '';
+            displayRequests();
+        }
+        
+        function revokeRequest(requestId) {
+            if (confirm('Are you sure you want to revoke this access request? This action cannot be undone.')) {
+                if (AccessManager.revokeRequest(requestId)) {
+                    showMessage('success', 'Access request has been revoked successfully.');
+                    displayRequests(currentFilter);
+                } else {
+                    showMessage('error', 'Failed to revoke access. Request not found.');
+                }
+            }
+        }
+        
+        function deleteRequest(requestId) {
+            if (confirm('Are you sure you want to permanently delete this request? This action cannot be undone.')) {
+                if (AccessManager.deleteRequest(requestId)) {
+                    showMessage('success', 'Request has been deleted successfully.');
+                    displayRequests(currentFilter);
+                } else {
+                    showMessage('error', 'Failed to delete request. Request not found.');
+                }
+            }
+        }
+        
+        function showMessage(type, message) {
+            const successDiv = document.getElementById('successMessage');
+            const errorDiv = document.getElementById('errorMessage');
+            const warningDiv = document.getElementById('warningMessage');
+            
+            // Hide all messages first
+            successDiv.style.display = 'none';
+            errorDiv.style.display = 'none';
+            warningDiv.style.display = 'none';
+            
+            if (type === 'success') {
+                successDiv.textContent = message;
+                successDiv.style.display = 'block';
+            } else if (type === 'warning') {
+                warningDiv.textContent = message;
+                warningDiv.style.display = 'block';
+            } else {
+                errorDiv.textContent = message;
+                errorDiv.style.display = 'block';
+            }
+            
+            setTimeout(function() {
+                successDiv.style.display = 'none';
+                errorDiv.style.display = 'none';
+                warningDiv.style.display = 'none';
+            }, 5000);
+        }
+        
+        function displayRequests(emailFilter) {
+            let requests = AccessManager.getAllRequests();
+            const listDiv = document.getElementById('requestsList');
+            
+            // Filter by email if provided
+            if (emailFilter) {
+                requests = requests.filter(function(req) {
+                    return req.requesterEmail.toLowerCase().includes(emailFilter);
+                });
+            }
+            
+            // Filter out already revoked requests for the main view
+            const activeRequests = requests.filter(function(req) {
+                return req.status !== 'revoked';
+            });
+            
+            if (activeRequests.length === 0) {
+                if (emailFilter) {
+                    listDiv.innerHTML = '<p>No active requests found for the specified email.</p>';
+                } else {
+                    listDiv.innerHTML = '<p>No active requests found.</p>';
+                }
+                return;
+            }
+            
+            let html = '';
+            activeRequests.forEach(function(request) {
+                html += '<div class="request-item">';
+                html += '<div class="request-info">';
+                html += '<h3>Request #' + request.id + ' <span class="request-status status-' + request.status + '">' + request.status.toUpperCase() + '</span></h3>';
+                html += '<p><strong>Type:</strong> ' + request.accessType + '</p>';
+                html += '<p><strong>Date:</strong> ' + new Date(request.requestDate).toLocaleDateString() + '</p>';
+                html += '<p><strong>Requester:</strong> ' + request.requesterName + ' (' + request.requesterEmail + ')</p>';
+                if (request.company) {
+                    html += '<p><strong>Company:</strong> ' + request.company + '</p>';
+                }
+                html += '</div>';
+                html += '<div class="request-actions">';
+                
+                if (request.status === 'pending' || request.status === 'approved') {
+                    html += '<button class="btn btn-danger" onclick="revokeRequest(\'' + request.id + '\')">Revoke</button><br><br>';
+                }
+                
+                html += '<button class="btn" onclick="deleteRequest(\'' + request.id + '\')">Delete</button>';
+                html += '</div>';
+                html += '</div>';
+            });
+            
+            listDiv.innerHTML = html;
+        }
+        
+        // Display requests on page load
+        displayRequests();
+    </script>
+</body>
+</html>
