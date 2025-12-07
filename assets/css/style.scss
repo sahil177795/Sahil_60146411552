@@ -3,116 +3,135 @@
 
 @import "{{ site.theme }}";
 
-/* Modern Professional Styling */
+/* Modern Professional Styling - Enhanced Override */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-  line-height: 1.7;
-  color: #00ff00;
-  background: #0d1117;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
+  line-height: 1.7 !important;
+  color: #e0e0e0 !important;
+  background: #0d1117 !important;
+  max-width: 1000px !important;
+  margin: 0 auto !important;
+  padding: 40px 20px !important;
 }
 
 .container {
-  max-width: 900px;
-  margin: 0 auto;
-  padding: 20px;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+#header {
+  background: rgba(0, 255, 0, 0.05) !important;
+  padding: 20px !important;
+  margin-bottom: 30px !important;
+  border-bottom: 3px solid #00ff00 !important;
 }
 
 h1 {
-  font-size: 2.5em;
-  font-weight: 700;
-  color: #00ff00;
-  border-bottom: 3px solid #00ff00;
-  padding-bottom: 15px;
-  margin-bottom: 10px;
-  text-shadow: 0 0 10px rgba(0, 255, 0, 0.5);
+  font-size: 2.5em !important;
+  font-weight: 700 !important;
+  color: #00ff00 !important;
+  border-bottom: 3px solid #00ff00 !important;
+  padding-bottom: 15px !important;
+  margin-bottom: 10px !important;
+  text-shadow: 0 0 10px rgba(0, 255, 0, 0.5) !important;
+  margin-top: 0 !important;
 }
 
 h2 {
-  font-size: 2em;
-  color: #00ff00;
-  margin-top: 40px;
-  margin-bottom: 20px;
-  border-left: 5px solid #00ff00;
-  padding-left: 15px;
-  text-shadow: 0 0 8px rgba(0, 255, 0, 0.3);
+  font-size: 1.8em !important;
+  color: #00ff00 !important;
+  margin-top: 40px !important;
+  margin-bottom: 20px !important;
+  border-left: 5px solid #00ff00 !important;
+  padding-left: 15px !important;
+  text-shadow: 0 0 8px rgba(0, 255, 0, 0.3) !important;
 }
 
 h3 {
-  font-size: 1.5em;
-  color: #00ff00;
-  margin-top: 30px;
-  margin-bottom: 15px;
-  font-weight: 600;
+  font-size: 1.4em !important;
+  color: #00ff00 !important;
+  margin-top: 30px !important;
+  margin-bottom: 15px !important;
+  font-weight: 600 !important;
 }
 
 /* Blockquote for professional summary */
 blockquote {
-  background: rgba(0, 255, 0, 0.05);
-  border-left: 5px solid #00ff00;
-  padding: 15px 20px;
-  margin: 20px 0;
-  font-style: italic;
-  color: #39ff14;
-  box-shadow: 0 2px 8px rgba(0, 255, 0, 0.1);
+  background: rgba(0, 255, 0, 0.05) !important;
+  border-left: 5px solid #00ff00 !important;
+  padding: 15px 20px !important;
+  margin: 20px 0 !important;
+  font-style: italic !important;
+  color: #a0ffa0 !important;
+  box-shadow: 0 2px 8px rgba(0, 255, 0, 0.1) !important;
 }
 
 /* Links */
 a {
-  color: #39ff14;
-  text-decoration: none;
-  border-bottom: 1px dotted #39ff14;
-  transition: all 0.3s ease;
+  color: #39ff14 !important;
+  text-decoration: none !important;
+  border-bottom: 1px dotted #39ff14 !important;
+  transition: all 0.3s ease !important;
 }
 
 a:hover {
-  color: #00ff00;
-  border-bottom: 1px solid #00ff00;
-  text-shadow: 0 0 5px rgba(0, 255, 0, 0.5);
+  color: #00ff00 !important;
+  border-bottom: 1px solid #00ff00 !important;
+  text-shadow: 0 0 5px rgba(0, 255, 0, 0.5) !important;
 }
 
 /* Strong text */
 strong {
-  color: #39ff14;
-  font-weight: 600;
+  color: #39ff14 !important;
+  font-weight: 600 !important;
+}
+
+/* Paragraphs */
+p {
+  color: #d0d0d0 !important;
+  line-height: 1.7 !important;
+  margin-bottom: 15px !important;
 }
 
 /* Lists */
 ul {
-  list-style-type: none;
-  padding-left: 0;
+  list-style-type: none !important;
+  padding-left: 0 !important;
 }
 
 ul li {
-  padding-left: 25px;
-  position: relative;
-  margin-bottom: 10px;
-  line-height: 1.6;
+  padding-left: 25px !important;
+  position: relative !important;
+  margin-bottom: 10px !important;
+  line-height: 1.6 !important;
+  color: #d0d0d0 !important;
 }
 
 ul li:before {
-  content: "▹";
-  color: #00ff00;
-  font-weight: bold;
-  position: absolute;
-  left: 0;
-  font-size: 1.2em;
+  content: "▹" !important;
+  color: #00ff00 !important;
+  font-weight: bold !important;
+  position: absolute !important;
+  left: 0 !important;
+  font-size: 1.2em !important;
 }
 
 /* Horizontal rule */
 hr {
-  border: 0;
-  height: 2px;
-  background: linear-gradient(to right, transparent, #00ff00, transparent);
-  margin: 40px 0;
+  border: 0 !important;
+  height: 2px !important;
+  background: linear-gradient(to right, transparent, #00ff00, transparent) !important;
+  margin: 40px 0 !important;
 }
 
 /* Code blocks */
 code {
-  background: rgba(0, 255, 0, 0.1);
-  padding: 2px 6px;
-  border-radius: 3px;
-  color: #39ff14;
-  font-family: 'Courier New', monospace;
+  background: rgba(0, 255, 0, 0.1) !important;
+  padding: 2px 6px !important;
+  border-radius: 3px !important;
+  color: #39ff14 !important;
+  font-family: 'Courier New', monospace !important;
 }
 
 /* Headers styling for work experience */
