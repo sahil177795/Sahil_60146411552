@@ -1,5 +1,7 @@
 # Mohamed Sahil Bin Mohamed Salim
 
+> **🌐 View this resume online:** [sahil177795.github.io/Sahil_60146411552](https://sahil177795.github.io/Sahil_60146411552/)
+
 ## Assistant Manager, IT Security & System
 
 > Cybersecurity and Cloud Infrastructure Professional with 5+ years of experience spanning fintech and high-tech industries. Proven ability to manage secure IT environments across data centers and cloud platforms. Passionate about aligning security with business priorities through compliance, risk management, and continuous learning.
@@ -34,7 +36,7 @@ Cybersecurity and Cloud Infrastructure Professional with **5+ years of experienc
 
 ### **Assistant Manager, IT Security & System**
 **Instapay Technologies Sdn. Bhd.** | Malaysia  
-*June 2022 – Present (2.5+ years)*
+*June 2022 – Present (3.5 years)*
 
 **Key Responsibilities:**
 - Lead IT security operations and cloud governance, ensuring compliance with **BNM RMiT standards**
@@ -54,7 +56,7 @@ Cybersecurity and Cloud Infrastructure Professional with **5+ years of experienc
 
 ### **Site IT Infra Lead**
 **NXP Semiconductors (M) Sdn. Bhd.** | Petaling Jaya, Malaysia  
-*October 2019 – May 2022 (2.5+ years)*
+*October 2019 – May 2022 (2.5 years)*
 
 **Key Responsibilities:**
 - Managed site IT infrastructure operations, balancing uptime, compliance, and security
