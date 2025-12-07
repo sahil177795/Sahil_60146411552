@@ -3,201 +3,232 @@
 
 @import "{{ site.theme }}";
 
-/* Modern Professional Styling - Enhanced Override */
+/* Professional Resume Styling - Clean & Modern */
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif !important;
-  line-height: 1.7 !important;
-  color: #e0e0e0 !important;
-  background: #0d1117 !important;
-  max-width: 1000px !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif !important;
+  line-height: 1.6 !important;
+  color: #333 !important;
+  background: #ffffff !important;
+  max-width: 900px !important;
   margin: 0 auto !important;
-  padding: 40px 20px !important;
+  padding: 40px 30px !important;
+  font-size: 15px !important;
 }
 
-.container {
-  max-width: 100% !important;
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-#header {
-  background: rgba(0, 255, 0, 0.05) !important;
-  padding: 20px !important;
-  margin-bottom: 30px !important;
-  border-bottom: 3px solid #00ff00 !important;
-}
-
+/* Main Header */
 h1 {
-  font-size: 2.5em !important;
+  font-size: 2.2em !important;
   font-weight: 700 !important;
-  color: #00ff00 !important;
-  border-bottom: 3px solid #00ff00 !important;
-  padding-bottom: 15px !important;
-  margin-bottom: 10px !important;
-  text-shadow: 0 0 10px rgba(0, 255, 0, 0.5) !important;
+  color: #1a1a1a !important;
+  border-bottom: 3px solid #2c5aa0 !important;
+  padding-bottom: 12px !important;
+  margin-bottom: 8px !important;
   margin-top: 0 !important;
+  letter-spacing: -0.5px !important;
 }
 
+/* Section Headers */
 h2 {
-  font-size: 1.8em !important;
-  color: #00ff00 !important;
-  margin-top: 40px !important;
-  margin-bottom: 20px !important;
-  border-left: 5px solid #00ff00 !important;
-  padding-left: 15px !important;
-  text-shadow: 0 0 8px rgba(0, 255, 0, 0.3) !important;
-}
-
-h3 {
-  font-size: 1.4em !important;
-  color: #00ff00 !important;
-  margin-top: 30px !important;
+  font-size: 1.5em !important;
+  font-weight: 700 !important;
+  color: #2c5aa0 !important;
+  margin-top: 35px !important;
   margin-bottom: 15px !important;
-  font-weight: 600 !important;
+  padding-bottom: 8px !important;
+  border-bottom: 2px solid #e0e0e0 !important;
+  text-transform: uppercase !important;
+  letter-spacing: 0.5px !important;
 }
 
-/* Blockquote for professional summary */
+/* Subsection Headers */
+h3 {
+  font-size: 1.2em !important;
+  font-weight: 600 !important;
+  color: #1a1a1a !important;
+  margin-top: 20px !important;
+  margin-bottom: 5px !important;
+}
+
+/* Job Title / Role */
+h2 + blockquote + h2,
+body > h2:nth-of-type(1) {
+  color: #555 !important;
+  font-size: 1.3em !important;
+  margin-top: 5px !important;
+  border: none !important;
+  text-transform: none !important;
+}
+
+/* Professional Summary / Blockquotes */
 blockquote {
-  background: rgba(0, 255, 0, 0.05) !important;
-  border-left: 5px solid #00ff00 !important;
-  padding: 15px 20px !important;
-  margin: 20px 0 !important;
-  font-style: italic !important;
-  color: #a0ffa0 !important;
-  box-shadow: 0 2px 8px rgba(0, 255, 0, 0.1) !important;
+  background: #f8f9fa !important;
+  border-left: 4px solid #2c5aa0 !important;
+  padding: 12px 20px !important;
+  margin: 15px 0 !important;
+  font-style: normal !important;
+  color: #555 !important;
+  font-size: 0.95em !important;
+}
+
+blockquote strong {
+  color: #2c5aa0 !important;
 }
 
 /* Links */
 a {
-  color: #39ff14 !important;
+  color: #2c5aa0 !important;
   text-decoration: none !important;
-  border-bottom: 1px dotted #39ff14 !important;
-  transition: all 0.3s ease !important;
+  border-bottom: 1px solid transparent !important;
+  transition: all 0.2s ease !important;
 }
 
 a:hover {
-  color: #00ff00 !important;
-  border-bottom: 1px solid #00ff00 !important;
-  text-shadow: 0 0 5px rgba(0, 255, 0, 0.5) !important;
+  color: #1a4278 !important;
+  border-bottom: 1px solid #2c5aa0 !important;
 }
 
-/* Strong text */
+/* Strong/Bold Text */
 strong {
-  color: #39ff14 !important;
+  color: #1a1a1a !important;
   font-weight: 600 !important;
 }
 
 /* Paragraphs */
 p {
-  color: #d0d0d0 !important;
-  line-height: 1.7 !important;
-  margin-bottom: 15px !important;
+  color: #444 !important;
+  line-height: 1.6 !important;
+  margin-bottom: 12px !important;
+  text-align: justify !important;
 }
 
 /* Lists */
 ul {
-  list-style-type: none !important;
+  list-style: none !important;
   padding-left: 0 !important;
+  margin-left: 20px !important;
 }
 
 ul li {
-  padding-left: 25px !important;
+  padding-left: 20px !important;
   position: relative !important;
-  margin-bottom: 10px !important;
-  line-height: 1.6 !important;
-  color: #d0d0d0 !important;
+  margin-bottom: 8px !important;
+  line-height: 1.5 !important;
+  color: #444 !important;
+  text-align: justify !important;
 }
 
 ul li:before {
-  content: "▹" !important;
-  color: #00ff00 !important;
+  content: "•" !important;
+  color: #2c5aa0 !important;
   font-weight: bold !important;
   position: absolute !important;
   left: 0 !important;
   font-size: 1.2em !important;
 }
 
-/* Horizontal rule */
+/* Nested lists (for work experience details) */
+ul ul {
+  margin-top: 8px !important;
+  margin-left: 0 !important;
+}
+
+ul ul li:before {
+  content: "◦" !important;
+  font-size: 1em !important;
+}
+
+/* Horizontal Rule */
 hr {
   border: 0 !important;
-  height: 2px !important;
-  background: linear-gradient(to right, transparent, #00ff00, transparent) !important;
-  margin: 40px 0 !important;
+  height: 1px !important;
+  background: #e0e0e0 !important;
+  margin: 30px 0 !important;
 }
 
-/* Code blocks */
+/* Code/Inline Code */
 code {
-  background: rgba(0, 255, 0, 0.1) !important;
+  background: #f4f4f4 !important;
   padding: 2px 6px !important;
   border-radius: 3px !important;
-  color: #39ff14 !important;
+  color: #d73a49 !important;
   font-family: 'Courier New', monospace !important;
+  font-size: 0.9em !important;
 }
 
-/* Headers styling for work experience */
-h3 + p strong {
-  color: #39ff14;
-  font-size: 1.1em;
+/* Remove emoji spacing issues */
+img.emoji {
+  display: inline !important;
+  vertical-align: middle !important;
+  margin: 0 !important;
 }
 
-/* Emoji enhancement */
-.emoji {
-  font-size: 1.2em;
-  margin-right: 5px;
+/* Company/Organization emphasis */
+h3 + p strong:first-child,
+h3 + p em strong {
+  color: #2c5aa0 !important;
+  font-size: 1.05em !important;
 }
 
-/* Professional sections */
-#personal-information,
-#professional-summary,
-#work-experience,
-#education--certifications,
-#technical-skills,
-#key-projects--accomplishments,
-#leadership-experience,
-#professional-differentiators,
-#contact-information {
-  margin-bottom: 40px;
+/* Date/Duration styling */
+em {
+  color: #666 !important;
+  font-style: italic !important;
 }
 
-/* Responsive design */
-@media (max-width: 768px) {
+/* Contact information styling */
+#personal-information + p,
+#contact-information + p {
+  line-height: 1.8 !important;
+}
+
+/* Print Styles */
+@media print {
+  body {
+    max-width: 100% !important;
+    padding: 20px !important;
+    font-size: 12pt !important;
+  }
+  
   h1 {
-    font-size: 2em;
+    font-size: 20pt !important;
   }
   
   h2 {
-    font-size: 1.6em;
+    font-size: 14pt !important;
+    page-break-after: avoid !important;
   }
   
   h3 {
-    font-size: 1.3em;
+    font-size: 12pt !important;
+    page-break-after: avoid !important;
   }
   
-  .container {
-    padding: 10px;
+  a {
+    color: #000 !important;
+    text-decoration: none !important;
+  }
+  
+  blockquote {
+    page-break-inside: avoid !important;
   }
 }
 
-/* Header enhancement */
-header h1 {
-  text-align: center;
-  margin-bottom: 5px;
-}
-
-header h2 {
-  text-align: center;
-  border: none;
-  margin-top: 0;
-  font-size: 1.5em;
-  color: #39ff14;
-}
-
-/* Footer styling */
-footer {
-  text-align: center;
-  margin-top: 60px;
-  padding-top: 20px;
-  border-top: 2px solid #00ff00;
-  color: #39ff14;
-  font-style: italic;
+/* Responsive Design */
+@media (max-width: 768px) {
+  body {
+    padding: 20px 15px !important;
+    font-size: 14px !important;
+  }
+  
+  h1 {
+    font-size: 1.8em !important;
+  }
+  
+  h2 {
+    font-size: 1.3em !important;
+  }
+  
+  h3 {
+    font-size: 1.1em !important;
+  }
 }
