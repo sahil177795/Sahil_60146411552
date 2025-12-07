@@ -548,8 +548,6 @@ em {
   .sidebar {
     position: relative !important;
     width: 100% !important;
-    max-width: 100% !important;
-    min-width: 100% !important;
     height: auto !important;
     border-right: none !important;
     border-bottom: 2px solid var(--sidebar-border) !important;
@@ -640,7 +638,7 @@ em {
   }
   
   .contact-item strong {
-    font-size: 0.75em !important;
+    font-size: 0.8em !important;
     margin-bottom: 3px !important;
   }
   
@@ -687,7 +685,7 @@ em {
     margin-left: 15px !important;
   }
   
-  ul li {
+  .content-wrapper ul li {
     font-size: 0.95em !important;
     padding-left: 18px !important;
     margin-bottom: 8px !important;
