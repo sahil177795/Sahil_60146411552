@@ -198,6 +198,8 @@ body {
 .content-wrapper > blockquote:first-of-type,
 .content-wrapper h2:first-of-type + blockquote,
 .content-wrapper > p:first-of-type,
+.content-wrapper h2[id*="personal"],
+.content-wrapper h2[id*="Personal"],
 .content-wrapper #personal-information,
 .content-wrapper #personal-information + p,
 .content-wrapper #personal-information + p + p,
@@ -206,10 +208,17 @@ body {
 .content-wrapper #personal-information + p + p + p + p + p,
 .content-wrapper #personal-information + p + p + p + p + p + p,
 .content-wrapper #personal-information + p + p + p + p + p + p + p,
+.content-wrapper #personal-information + p + p + p + p + p + p + p + p,
 .content-wrapper #professional-summary,
 .content-wrapper #professional-summary + p,
 .content-wrapper #professional-summary + p + p,
 .content-wrapper #professional-summary + blockquote {
+  display: none !important;
+}
+
+/* Specifically target any h2 containing "Personal Information" */
+.content-wrapper h2:first-of-type,
+.main-content h2:first-of-type {
   display: none !important;
 }
 
