@@ -73,6 +73,7 @@ body {
   background: var(--sidebar-bg) !important;
   border-right: 2px solid var(--sidebar-border) !important;
   overflow-y: hidden !important;
+  overflow-x: hidden !important;
   z-index: 100 !important;
   transition: background-color 0.3s ease, border-color 0.3s ease !important;
 }
@@ -83,6 +84,8 @@ body {
   display: flex !important;
   flex-direction: column !important;
   justify-content: center !important;
+  overflow-wrap: break-word !important;
+  word-wrap: break-word !important;
 }
 
 .sidebar-name {
@@ -126,6 +129,8 @@ body {
   font-size: 0.85em !important;
   line-height: 1.4 !important;
   color: var(--text-secondary) !important;
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
 }
 
 .contact-item strong {
@@ -199,6 +204,8 @@ body {
 .content-wrapper #personal-information + p + p + p,
 .content-wrapper #personal-information + p + p + p + p,
 .content-wrapper #personal-information + p + p + p + p + p,
+.content-wrapper #personal-information + p + p + p + p + p + p,
+.content-wrapper #personal-information + p + p + p + p + p + p + p,
 .content-wrapper #professional-summary,
 .content-wrapper #professional-summary + p,
 .content-wrapper #professional-summary + p + p,
