@@ -215,7 +215,9 @@ body {
 /* Hide original personal info and summary from main content */
 .content-wrapper h1:first-child,
 .content-wrapper > h2:first-of-type,
+.content-wrapper > h2:nth-of-type(1),
 .content-wrapper > blockquote:first-of-type,
+.content-wrapper > blockquote:nth-of-type(1),
 .content-wrapper h2:first-of-type + blockquote,
 .content-wrapper > p:first-of-type,
 .content-wrapper h2[id*="personal"],
@@ -239,6 +241,12 @@ body {
 /* Specifically target any h2 containing "Personal Information" */
 .content-wrapper h2:first-of-type,
 .main-content h2:first-of-type {
+  display: none !important;
+}
+
+/* Hide the first hr separator */
+.content-wrapper > hr:first-of-type,
+.content-wrapper hr:nth-of-type(1) {
   display: none !important;
 }
 
