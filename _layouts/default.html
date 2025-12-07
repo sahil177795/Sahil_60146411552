@@ -9,10 +9,48 @@
     <meta name="description" content="{{ site.description }}">
   </head>
   <body>
-    <div class="wrapper">
-      <section>
-        {{ content }}
-      </section>
+    <div class="resume-container">
+      <!-- Fixed Left Sidebar -->
+      <aside class="sidebar">
+        <div class="sidebar-content">
+          <h1 class="sidebar-name">Mohamed Sahil<br>Bin Mohamed Salim</h1>
+          
+          <section class="contact-section">
+            <h2>👤 Personal Info</h2>
+            <div class="contact-item">
+              <strong>Date of Birth:</strong><br>7th July 1995
+            </div>
+            <div class="contact-item">
+              <strong>Location:</strong><br>Kuala Lumpur, Malaysia
+            </div>
+            <div class="contact-item">
+              <strong>Mobile:</strong><br><a href="tel:+60146411552">+6014-641 1552</a>
+            </div>
+            <div class="contact-item">
+              <strong>Email:</strong><br><a href="mailto:sahil_17@yahoo.com">sahil_17@yahoo.com</a>
+            </div>
+            <div class="contact-item">
+              <strong>LinkedIn:</strong><br><a href="https://www.linkedin.com/in/sahil177795/" target="_blank">sahil177795</a>
+            </div>
+          </section>
+
+          <section class="summary-section">
+            <h2>🎯 Summary</h2>
+            <p>Cybersecurity & Cloud Professional with 5+ years in fintech and high-tech. Leading IT security operations at Instapay Technologies with expertise in cloud governance, compliance (BNM RMiT), and risk management. CEH Master certified.</p>
+          </section>
+
+          <div class="sidebar-footer">
+            <p><small>🌐 <a href="https://sahil177795.github.io/Sahil_60146411552/">View Online</a></small></p>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Scrollable Main Content -->
+      <main class="main-content">
+        <div class="content-wrapper">
+          {{ content }}
+        </div>
+      </main>
     </div>
 
     <!-- Theme Toggle Button -->
