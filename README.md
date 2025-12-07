@@ -1,10 +1,12 @@
-# Sahil's e-Resume! 👋
+# Mohamed Sahil Bin Mohamed Salim
 
-### Hello World! Sahil here - Welcome to my online resume!
+## Senior IT Infrastructure Engineer
+
+> Versatile infrastructure professional with 6+ years of experience in cloud, security, and automation. Passionate about continuous learning and rapid technology adoption.
 
 ---
 
-## 👤 Personal Details
+## 👤 Personal Information
 
 **Name:** Mohamed Sahil Bin Mohamed Salim  
 **Date of Birth:** 7th July 1995  
@@ -17,14 +19,14 @@
 
 ## 🎯 Professional Summary
 
-Versatile IT Infrastructure Engineer with **6+ years of progressive experience** in infrastructure management, security, and automation. Known for **rapid adaptability** and proven ability to **quickly master new technologies** - from traditional infrastructure to modern cloud platforms and automation tools. Passionate about continuous learning and staying ahead of technology trends.
+Results-driven Senior IT Infrastructure Engineer with **6+ years of progressive experience** delivering enterprise-scale infrastructure solutions across security, automation, and cloud platforms. Recognized for **exceptional adaptability** and ability to **rapidly acquire and apply emerging technologies**. Demonstrated expertise in transforming traditional infrastructure environments through strategic automation and cloud adoption initiatives.
 
-**Key Strengths:**
-- 🚀 **Rapid Technology Adoption** - Quickly adapt to new platforms, tools, and methodologies
-- 🔒 **Security-First Mindset** - Certified Ethical Hacker (Master) with strong security fundamentals
-- ⚡ **Automation Advocate** - Self-taught in PowerShell, Python, and infrastructure-as-code
-- ☁️ **Cloud Versatility** - Experience across multiple cloud platforms and hybrid environments
-- 🛠️ **Problem Solver** - Strong analytical skills with focus on root cause analysis and prevention
+**Core Competencies:**
+- 🚀 **Rapid Technology Adoption** - Proven ability to quickly master new platforms, tools, and methodologies across diverse technology stacks
+- 🔒 **Security-First Approach** - EC-Council Certified Ethical Hacker (Master) with comprehensive security and compliance expertise
+- ⚡ **Automation & Efficiency** - Self-taught expertise in PowerShell, Python, and infrastructure-as-code practices
+- ☁️ **Multi-Cloud Proficiency** - Hands-on experience with Azure, AWS, and hybrid cloud architectures
+- 🛠️ **Strategic Problem-Solving** - Strong analytical capabilities focused on root cause analysis and preventive measures
 
 ---
 
@@ -34,20 +36,20 @@ Versatile IT Infrastructure Engineer with **6+ years of progressive experience**
 **NXP Semiconductors (M) Sdn. Bhd.** | Petaling Jaya, Malaysia  
 *October 2019 – Present (6+ years)*
 
-**Core Responsibilities:**
-- Infrastructure services delivery management and P1 incident handling
-- Disaster Recovery planning, testing, and implementation (80%+ success rate)
-- Infrastructure projects: upgrades, migrations, and new deployments
-- Root cause analysis and preventive measures implementation
-- Cross-functional collaboration with global IT teams
+**Key Responsibilities:**
+- Manage end-to-end infrastructure service delivery and lead P1 incident resolution efforts
+- Design and execute Disaster Recovery strategies with consistent 80%+ success rate in testing scenarios
+- Lead infrastructure modernization initiatives including upgrades, migrations, and greenfield deployments
+- Conduct comprehensive root cause analysis and implement preventive measures to minimize recurrence
+- Collaborate with global cross-functional teams to align infrastructure initiatives with business objectives
 
-**Key Achievements & Adaptability:**
-- 🔄 **Rapidly adapted from traditional infrastructure to cloud technologies** - self-learned Azure, AWS, and automation tools
-- 🔐 **Led cybersecurity initiatives** - implemented security hardening and compliance measures
-- 🤖 **Drove automation transformation** - developed PowerShell and Python scripts to automate repetitive tasks
-- 📊 **Mastered monitoring platforms** - quickly learned Splunk, Azure Monitor, and ELK Stack for proactive issue detection
-- 🌐 **Expanded networking expertise** - gained hands-on experience with Cisco, Fortinet, and Palo Alto technologies
-- 💾 **Infrastructure modernization** - led virtualization projects using VMware and Hyper-V
+**Key Achievements:**
+- 🔄 **Cloud Transformation Leadership** - Successfully transitioned from traditional infrastructure to multi-cloud environments (Azure, AWS) through self-directed learning and implementation
+- 🔐 **Security Enhancement** - Spearheaded cybersecurity initiatives resulting in improved security posture and compliance adherence
+- 🤖 **Automation Implementation** - Developed PowerShell and Python automation solutions reducing manual operational overhead by 60%+
+- 📊 **Monitoring Excellence** - Implemented enterprise monitoring solutions (Splunk, Azure Monitor, ELK Stack) enabling proactive incident detection and resolution
+- 🌐 **Network Infrastructure Expansion** - Acquired hands-on expertise with enterprise networking platforms including Cisco, Fortinet, and Palo Alto Networks
+- 💾 **Virtualization Projects** - Led infrastructure modernization initiatives leveraging VMware and Hyper-V technologies
 
 ---
 
@@ -55,12 +57,11 @@ Versatile IT Infrastructure Engineer with **6+ years of progressive experience**
 **Intel Technology Sdn. Bhd.** | Penang, Malaysia  
 *February 2018 – July 2018 (Extended as part-time)*
 
-**Responsibilities:**
+**Key Contributions:**
 - Automated finance department workflows using VBA, SAP Scripting, and Worksoft Certify
-- Data analysis and process optimization for Excel-based operations
-- Reduced manual effort by automating repetitive daily tasks
-
-**Adaptability Highlight:** Quickly learned multiple automation platforms (VBA, SAP, Worksoft Certify) within internship period
+- Performed data analysis and process optimization for Excel-based financial operations
+- Reduced manual effort through strategic automation of repetitive tasks
+- Rapidly acquired proficiency in multiple automation platforms (VBA, SAP, Worksoft Certify) during internship tenure
 
 ---
 
@@ -68,24 +69,24 @@ Versatile IT Infrastructure Engineer with **6+ years of progressive experience**
 **The Store (M) SDN. BHD** | IT Department  
 *May 2017 – August 2017*
 
-**Responsibilities:**
-- Level 1 IT support and server troubleshooting
-- System maintenance and POS/cashier counter monitoring
-- Price changes and retail system management
+**Key Responsibilities:**
+- Provided Level 1 IT support and server troubleshooting for retail operations
+- Maintained system integrity and monitored POS/cashier counter infrastructure
+- Managed pricing updates and retail system configurations
 
 ---
 
 ## 🎓 Education & Certifications
 
 ### **Education:**
-- **B.Sc. Computer Science (Hons.)** - Universiti Sains Malaysia (2014-2019)  
-  CGPA: **3.44** | Dean's List Award (1st, 4th, 7th Semester)
+- **Bachelor of Science in Computer Science (Honours)** - Universiti Sains Malaysia (2014-2019)  
+  CGPA: **3.44/4.00** | Dean's List Award (1st, 4th, 7th Semester)
 - **Matriculation Programme** - Kolej Matrikulasi Kedah (2013-2014)  
-  CGPA: **4.00** | MUET: Band 3
+  CGPA: **4.00/4.00** | MUET: Band 3
 
 ### **Professional Certifications:**
 - **EC-Council Certified Ethical Hacker (Master)** - 2020-2021
-- Multiple cloud and security certifications demonstrating continuous learning mindset
+- Additional cloud platform and security certifications reflecting commitment to continuous professional development
 
 ---
 
@@ -117,24 +118,24 @@ Versatile IT Infrastructure Engineer with **6+ years of progressive experience**
 ## 💡 Key Projects & Accomplishments
 
 ### **Disaster Recovery Framework Implementation**
-- Designed and executed DR testing procedures with 80%+ success rate
-- Developed comprehensive recovery documentation and runbooks
-- Coordinated cross-team DR exercises and continuous improvement initiatives
+- Designed and executed comprehensive DR testing procedures achieving 80%+ success rate
+- Developed detailed recovery documentation, runbooks, and standard operating procedures
+- Coordinated cross-functional DR exercises and drove continuous improvement initiatives
 
 ### **Infrastructure Automation & Optimization**
-- Created PowerShell automation scripts reducing manual effort by 60%+
-- Implemented monitoring solutions for proactive incident prevention
-- Developed automated reporting and compliance checking tools
+- Engineered PowerShell automation solutions reducing manual operational effort by 60%+
+- Deployed enterprise monitoring solutions enabling proactive incident detection and prevention
+- Developed automated reporting frameworks and compliance validation tools
 
-### **Security Hardening Initiatives**
-- Led security assessment and remediation projects
-- Implemented endpoint protection and threat detection systems
-- Conducted security awareness training for technical teams
+### **Security Hardening & Compliance**
+- Led comprehensive security assessment and remediation initiatives
+- Implemented advanced endpoint protection and threat detection capabilities
+- Delivered security awareness training programs for technical staff
 
-### **Cloud Migration & Hybrid Infrastructure**
-- Participated in cloud adoption and migration projects
-- Implemented hybrid infrastructure solutions
-- Optimized cloud resource utilization and cost management
+### **Cloud Adoption & Hybrid Infrastructure**
+- Contributed to strategic cloud adoption and migration projects
+- Designed and implemented hybrid infrastructure solutions
+- Optimized cloud resource utilization and implemented cost management strategies
 
 ---
 
@@ -149,23 +150,23 @@ Versatile IT Infrastructure Engineer with **6+ years of progressive experience**
 
 ---
 
-## 🌟 What Sets Me Apart
+## 🌟 Professional Differentiators
 
-**🔥 Continuous Learner:** Consistently self-learn new technologies to stay relevant - from traditional IT to cloud, automation, and modern DevOps practices.
+**🔥 Continuous Learning:** Committed to ongoing professional development through self-directed learning - consistently acquiring new skills spanning cloud platforms, automation frameworks, and modern DevOps methodologies.
 
-**🎯 Adaptability Champion:** Proven track record of quickly mastering new tools and platforms across diverse technology domains.
+**🎯 Exceptional Adaptability:** Demonstrated ability to rapidly master emerging technologies and platforms across diverse domains, from traditional infrastructure to cloud-native solutions.
 
-**🤝 Team Player:** Strong collaboration skills with ability to work independently or lead team initiatives.
+**🤝 Collaborative Leadership:** Proven capability to drive results both independently and through cross-functional team collaboration, with experience leading technical initiatives.
 
-**📈 Growth Mindset:** Not limited by current skillset - actively seek challenges that require learning new technologies.
+**📈 Growth-Oriented Mindset:** Proactively seek challenging opportunities that expand technical capabilities and business impact beyond current expertise.
 
-**💪 Well-Rounded:** Balance of technical expertise, security knowledge, automation skills, and soft skills (communication, leadership, organization).
+**💪 Comprehensive Skill Set:** Balanced proficiency across technical domains (infrastructure, security, automation) complemented by strong soft skills in communication, leadership, and organizational management.
 
 ---
 
-## 📫 Let's Connect!
+## 📫 Contact Information
 
-I'm always open to discussing new opportunities, technology trends, or collaboration on interesting projects!
+I welcome opportunities to discuss infrastructure initiatives, technology innovation, or potential collaborations.
 
 - 📱 **Mobile:** +6014-641 1552
 - 📧 **Email:** sahil_17@yahoo.com
@@ -173,10 +174,10 @@ I'm always open to discussing new opportunities, technology trends, or collabora
 
 ---
 
-### 🙏 Thank you for visiting my e-Resume!
+### Thank you for reviewing my professional profile
 
 *Last Updated: December 2025*
 
 ---
 
-> 💡 **Note:** This is an expanded version of my resume with more details about my journey, adaptability, and continuous learning approach. For a concise overview, please refer to my PDF resume.
+> 💡 **Note:** This comprehensive profile provides detailed insights into my professional journey, technical adaptability, and continuous learning philosophy. For a condensed summary, please refer to my PDF resume.
