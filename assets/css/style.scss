@@ -78,7 +78,7 @@ body {
 }
 
 .sidebar-content {
-  padding: 25px 20px !important;
+  padding: 30px 20px !important;
   height: 100% !important;
   display: flex !important;
   flex-direction: column !important;
@@ -86,13 +86,14 @@ body {
 }
 
 .sidebar-name {
-  font-size: 1.4em !important;
+  font-size: 1.5em !important;
   font-weight: 700 !important;
   color: var(--heading-color) !important;
-  margin: 0 0 20px 0 !important;
-  padding-bottom: 12px !important;
+  margin: 0 0 30px 0 !important;
+  padding-bottom: 15px !important;
   border-bottom: 3px solid var(--accent-color) !important;
   line-height: 1.3 !important;
+  text-align: center !important;
   transition: color 0.3s ease, border-color 0.3s ease !important;
 }
 
@@ -177,6 +178,13 @@ body {
 .content-wrapper {
   padding: 25px 35px !important;
   max-width: 100% !important;
+  text-align: justify !important;
+}
+
+.content-wrapper h1,
+.content-wrapper h2,
+.content-wrapper h3 {
+  text-align: left !important;
 }
 
 /* Hide original personal info and summary from main content */
@@ -188,8 +196,12 @@ body {
 .content-wrapper #personal-information,
 .content-wrapper #personal-information + p,
 .content-wrapper #personal-information + p + p,
+.content-wrapper #personal-information + p + p + p,
+.content-wrapper #personal-information + p + p + p + p,
+.content-wrapper #personal-information + p + p + p + p + p,
 .content-wrapper #professional-summary,
 .content-wrapper #professional-summary + p,
+.content-wrapper #professional-summary + p + p,
 .content-wrapper #professional-summary + blockquote {
   display: none !important;
 }
