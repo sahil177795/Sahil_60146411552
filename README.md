@@ -1,8 +1,8 @@
 # Mohamed Sahil Bin Mohamed Salim
 
-## IT System and Security, Assistant Manager
+## Assistant Manager, IT Security & System
 
-> Versatile IT professional with 6+ years of progressive experience in infrastructure management, system security, and automation. Passionate about continuous learning and rapid technology adoption across diverse IT domains.
+> Cybersecurity and Cloud Infrastructure Professional with 5+ years of experience spanning fintech and high-tech industries. Proven ability to manage secure IT environments across data centers and cloud platforms. Passionate about aligning security with business priorities through compliance, risk management, and continuous learning.
 
 ---
 
@@ -19,79 +19,79 @@
 
 ## 🎯 Professional Summary
 
-Results-driven IT System and Security professional with **6+ years of progressive experience** delivering enterprise-scale infrastructure and security solutions. Currently serving as Assistant Manager at Instapay, leading IT systems and security initiatives. Recognized for **exceptional adaptability** and ability to **rapidly acquire and apply emerging technologies**. Demonstrated expertise in infrastructure management, security operations, and automation across multiple organizations.
+Cybersecurity and Cloud Infrastructure Professional with **5+ years of experience** spanning fintech and high-tech industries. Currently serving as Assistant Manager at Instapay Technologies, leading IT security operations and cloud governance in a regulated environment. Proven ability to manage secure IT environments across data centers and cloud platforms (IaaS, PaaS, SECaaS, Networking). Skilled at aligning security with business priorities through compliance, risk management, and resilient system design. Recognized for leadership in training, project delivery, and cross-team collaboration.
 
 **Core Competencies:**
-- 🚀 **Rapid Technology Adoption** - Proven ability to quickly master new platforms, tools, and methodologies across diverse technology stacks
-- 🔒 **Security-First Approach** - EC-Council Certified Ethical Hacker (Master) with comprehensive security and compliance expertise
-- ⚡ **Automation & Efficiency** - Self-taught expertise in PowerShell, Python, and infrastructure-as-code practices
-- ☁️ **Multi-Cloud Proficiency** - Hands-on experience with Azure, AWS, and hybrid cloud architectures
-- 🛠️ **Strategic Problem-Solving** - Strong analytical capabilities focused on root cause analysis and preventive measures
+- 🔒 **Information & Cloud Security** - Certified Ethical Hacker (Master) with expertise in secure IT operations and compliance
+- ☁️ **Cloud Platform Security** - Hands-on experience securing IaaS, PaaS, SECaaS, and networking across cloud environments
+- 📊 **Project & Change Management** - Proven track record delivering IT security and infrastructure projects
+- 👥 **Leadership & Team Development** - Experience in security awareness training, cyber drills, and cross-functional collaboration
+- ⚡ **Risk Mitigation & Compliance** - Strong analytical skills in critical thinking, adaptability, and problem-solving
 
 ---
 
 ## 💼 Work Experience
 
-### **IT System and Security, Assistant Manager**
-**Instapay** | Malaysia  
+### **Assistant Manager, IT Security & System**
+**Instapay Technologies Sdn. Bhd.** | Malaysia  
 *June 2022 – Present (2.5+ years)*
 
 **Key Responsibilities:**
-- Lead IT system infrastructure and security operations for digital payment platform
-- Oversee security compliance, risk management, and incident response initiatives
-- Manage infrastructure projects, upgrades, and technology implementations
-- Drive automation initiatives to enhance operational efficiency and security posture
-- Collaborate with cross-functional teams to align IT systems with business objectives
+- Lead IT security operations and cloud governance, ensuring compliance with **BNM RMiT standards**
+- Enhanced security posture across cloud platforms (IaaS, PaaS, SECaaS, Networking) through multiple layers of controls, monitoring and optimization
+- Led IT security awareness training and cyber drills, improving staff resilience
+- Supported projects: Fraud Management System, Remittance Licensing, Finance Tools, and Mastercard Cross-Border
 
 **Key Achievements:**
-- 🔐 **Security Operations Leadership** - Established and maintained robust security frameworks ensuring compliance and threat mitigation
-- 🤖 **Automation Excellence** - Implemented automated solutions for system monitoring, security compliance, and operational workflows
-- ☁️ **Cloud & Infrastructure Management** - Successfully managed hybrid infrastructure environments supporting critical payment systems
-- 📊 **Process Optimization** - Streamlined IT operations through strategic automation and process improvements
+- 🔐 **Cloud & Network Security** - Implemented & optimized security controls (firewall, WAF, endpoint, access governance)
+- 🎯 **Security Awareness Programs** - Spearheaded awareness programs, inductions, and phishing simulations, reducing staff-related risks
+- 🛡️ **Cyber Resilience** - Designed and executed cyber drills (BCP, DRP, CMP) to validate resilience
+- 🔍 **Penetration Testing Coordination** - Coordinated penetration testing, from procurement through remediation
+- ⚙️ **Change Management** - Oversaw patching & change management with structured documentation
+- 🤖 **Automation** - Automated routine IT tasks (license monitoring, system checks), boosting efficiency
 
 ---
 
 ### **Site IT Infra Lead**
 **NXP Semiconductors (M) Sdn. Bhd.** | Petaling Jaya, Malaysia  
-*October 2019 – June 2022 (2.5+ years)*
+*October 2019 – May 2022 (2.5+ years)*
 
 **Key Responsibilities:**
-- Led site-level infrastructure service delivery and P1 incident resolution for semiconductor manufacturing facility
-- Designed and executed Disaster Recovery strategies with consistent 80%+ success rate in testing scenarios
-- Managed infrastructure projects including upgrades, migrations, and new deployments
-- Conducted comprehensive root cause analysis and implemented preventive measures
-- Collaborated with global IT teams to align infrastructure initiatives with business objectives
+- Managed site IT infrastructure operations, balancing uptime, compliance, and security
+- Led site infrastructure and network operations, supporting both IT and OT systems
+- Oversaw patching & change management cycles, improving system stability and resilience
+- Collaborated with global IT teams to align Malaysia operations with international standards
 
 **Key Achievements:**
-- 🔄 **Cloud Technology Adoption** - Successfully learned and implemented multi-cloud solutions (Azure, AWS) to support hybrid infrastructure
-- 🔐 **Security Initiatives** - Led cybersecurity projects improving security posture and compliance
-- 🤖 **Automation Development** - Created PowerShell and Python automation solutions reducing manual effort by 60%+
-- 📊 **Monitoring Implementation** - Deployed enterprise monitoring solutions (Splunk, Azure Monitor, ELK Stack) for proactive incident detection
-- 🌐 **Network Skills Expansion** - Gained hands-on experience with Cisco, Fortinet, and Palo Alto networking technologies
-- 💾 **Virtualization Management** - Managed infrastructure using VMware and Hyper-V platforms
+- 🏭 **Factory Network Separation** - Contributed to critical project through segmentation, firewall policies, and zoning
+- 🔒 **Firewall Validation** - Performed firewall validation testing during maintenance to confirm segmentation effectiveness
+- 🔧 **Patch Management** - Oversaw patching and change management cycles, reducing vulnerabilities and downtime
+- 📦 **Asset Lifecycle Management** - Coordinated asset lifecycle processes (deployment → decommissioning)
+- 🌐 **Global Standards Alignment** - Aligned Malaysia site practices with global IT standards
+- 🤝 **Vendor Partnerships** - Partnered with vendors/contractors to deliver secure infrastructure upgrades
 
 ---
 
-### **Finance Automation Intern → Part-Time Employee**
+### **Finance Automation Intern → Part-Time Support**
 **Intel Technology Sdn. Bhd.** | Penang, Malaysia  
-*February 2018 – July 2018 (Extended as part-time)*
+*February 2018 – May 2019 (Extended part-time until graduation)*
 
 **Key Contributions:**
-- Automated finance department workflows using VBA, SAP Scripting, and Worksoft Certify
-- Performed data analysis and process optimization for Excel-based financial operations
-- Reduced manual effort through strategic automation of repetitive tasks
-- Rapidly acquired proficiency in multiple automation platforms (VBA, SAP, Worksoft Certify) during internship tenure
+- Developed six automation tools (Excel VBA, SAP scripting, Worksoft Certify) for finance processes
+- Tools included: Letter Generator, AP Automation, Transfer Pricing Tool, Email Workflow, SAP Integration, and Dashboard
+- Retained part-time until graduation due to performance, reducing manual work and improving reporting speed
+- Rapidly acquired proficiency in multiple automation platforms during internship
 
 ---
 
-### **Junior Marketing Information System (MIS) Executive**
-**The Store (M) SDN. BHD** | IT Department  
+### **IT Intern (MIS Department)**
+**The Store (M) Sdn. Bhd.** | IT Department  
 *May 2017 – August 2017*
 
 **Key Responsibilities:**
-- Provided Level 1 IT support and server troubleshooting for retail operations
+- Delivered L1 IT support across retail operations, maintaining server & POS uptime
+- Supported stock database updates and system checks to ensure accuracy
 - Maintained system integrity and monitored POS/cashier counter infrastructure
-- Managed pricing updates and retail system configurations
 
 ---
 
