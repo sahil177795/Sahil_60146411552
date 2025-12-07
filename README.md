@@ -1,8 +1,8 @@
 # Mohamed Sahil Bin Mohamed Salim
 
-## Senior IT Infrastructure Engineer
+## IT System and Security, Assistant Manager
 
-> Versatile infrastructure professional with 6+ years of experience in cloud, security, and automation. Passionate about continuous learning and rapid technology adoption.
+> Versatile IT professional with 6+ years of progressive experience in infrastructure management, system security, and automation. Passionate about continuous learning and rapid technology adoption across diverse IT domains.
 
 ---
 
@@ -19,7 +19,7 @@
 
 ## 🎯 Professional Summary
 
-Results-driven Senior IT Infrastructure Engineer with **6+ years of progressive experience** delivering enterprise-scale infrastructure solutions across security, automation, and cloud platforms. Recognized for **exceptional adaptability** and ability to **rapidly acquire and apply emerging technologies**. Demonstrated expertise in transforming traditional infrastructure environments through strategic automation and cloud adoption initiatives.
+Results-driven IT System and Security professional with **6+ years of progressive experience** delivering enterprise-scale infrastructure and security solutions. Currently serving as Assistant Manager at Instapay, leading IT systems and security initiatives. Recognized for **exceptional adaptability** and ability to **rapidly acquire and apply emerging technologies**. Demonstrated expertise in infrastructure management, security operations, and automation across multiple organizations.
 
 **Core Competencies:**
 - 🚀 **Rapid Technology Adoption** - Proven ability to quickly master new platforms, tools, and methodologies across diverse technology stacks
@@ -32,24 +32,43 @@ Results-driven Senior IT Infrastructure Engineer with **6+ years of progressive 
 
 ## 💼 Work Experience
 
-### **Senior IT Infrastructure Engineer**
-**NXP Semiconductors (M) Sdn. Bhd.** | Petaling Jaya, Malaysia  
-*October 2019 – Present (6+ years)*
+### **IT System and Security, Assistant Manager**
+**Instapay** | Malaysia  
+*June 2022 – Present (2.5+ years)*
 
 **Key Responsibilities:**
-- Manage end-to-end infrastructure service delivery and lead P1 incident resolution efforts
-- Design and execute Disaster Recovery strategies with consistent 80%+ success rate in testing scenarios
-- Lead infrastructure modernization initiatives including upgrades, migrations, and greenfield deployments
-- Conduct comprehensive root cause analysis and implement preventive measures to minimize recurrence
-- Collaborate with global cross-functional teams to align infrastructure initiatives with business objectives
+- Lead IT system infrastructure and security operations for digital payment platform
+- Oversee security compliance, risk management, and incident response initiatives
+- Manage infrastructure projects, upgrades, and technology implementations
+- Drive automation initiatives to enhance operational efficiency and security posture
+- Collaborate with cross-functional teams to align IT systems with business objectives
 
 **Key Achievements:**
-- 🔄 **Cloud Transformation Leadership** - Successfully transitioned from traditional infrastructure to multi-cloud environments (Azure, AWS) through self-directed learning and implementation
-- 🔐 **Security Enhancement** - Spearheaded cybersecurity initiatives resulting in improved security posture and compliance adherence
-- 🤖 **Automation Implementation** - Developed PowerShell and Python automation solutions reducing manual operational overhead by 60%+
-- 📊 **Monitoring Excellence** - Implemented enterprise monitoring solutions (Splunk, Azure Monitor, ELK Stack) enabling proactive incident detection and resolution
-- 🌐 **Network Infrastructure Expansion** - Acquired hands-on expertise with enterprise networking platforms including Cisco, Fortinet, and Palo Alto Networks
-- 💾 **Virtualization Projects** - Led infrastructure modernization initiatives leveraging VMware and Hyper-V technologies
+- 🔐 **Security Operations Leadership** - Established and maintained robust security frameworks ensuring compliance and threat mitigation
+- 🤖 **Automation Excellence** - Implemented automated solutions for system monitoring, security compliance, and operational workflows
+- ☁️ **Cloud & Infrastructure Management** - Successfully managed hybrid infrastructure environments supporting critical payment systems
+- 📊 **Process Optimization** - Streamlined IT operations through strategic automation and process improvements
+
+---
+
+### **Site IT Infra Lead**
+**NXP Semiconductors (M) Sdn. Bhd.** | Petaling Jaya, Malaysia  
+*October 2019 – June 2022 (2.5+ years)*
+
+**Key Responsibilities:**
+- Led site-level infrastructure service delivery and P1 incident resolution for semiconductor manufacturing facility
+- Designed and executed Disaster Recovery strategies with consistent 80%+ success rate in testing scenarios
+- Managed infrastructure projects including upgrades, migrations, and new deployments
+- Conducted comprehensive root cause analysis and implemented preventive measures
+- Collaborated with global IT teams to align infrastructure initiatives with business objectives
+
+**Key Achievements:**
+- 🔄 **Cloud Technology Adoption** - Successfully learned and implemented multi-cloud solutions (Azure, AWS) to support hybrid infrastructure
+- 🔐 **Security Initiatives** - Led cybersecurity projects improving security posture and compliance
+- 🤖 **Automation Development** - Created PowerShell and Python automation solutions reducing manual effort by 60%+
+- 📊 **Monitoring Implementation** - Deployed enterprise monitoring solutions (Splunk, Azure Monitor, ELK Stack) for proactive incident detection
+- 🌐 **Network Skills Expansion** - Gained hands-on experience with Cisco, Fortinet, and Palo Alto networking technologies
+- 💾 **Virtualization Management** - Managed infrastructure using VMware and Hyper-V platforms
 
 ---
 
