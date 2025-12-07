@@ -1,122 +1,182 @@
-# *__Sahil's e-Resume!__*
+# Sahil's e-Resume! 👋
 
-<br/><br/>
-### **Hello World! Sahil on this end welcoming you to my online resume!**
-<br/><br/><br/>
+### Hello World! Sahil here - Welcome to my online resume!
 
-___
+---
 
-__Personal Details__
+## 👤 Personal Details
 
-___
-<br/>
-### Name  : 
-	Mohamed Sahil Bin Mohamed Salim
-	
-### Date of Birth : 
-	7th July 1995
-	
-### Address : 
-	2-4-16, SERI GEMBIRA APT, JALAN
-	TEROLAK 9, TAMAN BAMBOO,
-	BATU 4, JALAN IPOH, 
-	51200 KUALA LUMPUR,
-	MALAYSIA
+**Name:** Mohamed Sahil Bin Mohamed Salim  
+**Date of Birth:** 7th July 1995  
+**Location:** Kuala Lumpur, Malaysia  
+**Mobile:** +6014-641 1552  
+**Email:** sahil_17@yahoo.com  
+**LinkedIn:** [linkedin.com/in/sahil177795](https://www.linkedin.com/in/sahil177795/)
 
-<br/><br/> 
-___
+---
 
-__My Goals, Skillset & Languages__
+## 🎯 Professional Summary
 
-___
-<br/>
-### Career Objective :
-	Hi Employer, Good day to you! This website is basically electronic version of my Resume, 
-	which has more details since I wanted to keep the hardcopy summarized and simple. 
+Versatile IT Infrastructure Engineer with **6+ years of progressive experience** in infrastructure management, security, and automation. Known for **rapid adaptability** and proven ability to **quickly master new technologies** - from traditional infrastructure to modern cloud platforms and automation tools. Passionate about continuous learning and staying ahead of technology trends.
 
-### Skills :
-* Strong knowledge in IT Security, EC-Council Certified Ethical Hacker (Master).
-* Programming (C#, C++, Java, Visual Basic, SQL, Phyton, VBA and more).
-* Consult well with good manners and patience to solve technical problem.
-* Excellent verbal communication skills.
-* Highly organized and efficient, able to multitask and handle stress well.
-* Ability to work independently or as part of a team.
-* Proven leadership skills and ability to motivate.
-* Easily adapt to new environment and understand how things work quickly.
+**Key Strengths:**
+- 🚀 **Rapid Technology Adoption** - Quickly adapt to new platforms, tools, and methodologies
+- 🔒 **Security-First Mindset** - Certified Ethical Hacker (Master) with strong security fundamentals
+- ⚡ **Automation Advocate** - Self-taught in PowerShell, Python, and infrastructure-as-code
+- ☁️ **Cloud Versatility** - Experience across multiple cloud platforms and hybrid environments
+- 🛠️ **Problem Solver** - Strong analytical skills with focus on root cause analysis and prevention
 
-### Languages : 
-* English
-* Malay
-* Tamil
+---
 
-<br/><br/>
-___
+## 💼 Work Experience
 
-__Work Experience__
+### **Senior IT Infrastructure Engineer**
+**NXP Semiconductors (M) Sdn. Bhd.** | Petaling Jaya, Malaysia  
+*October 2019 – Present (6+ years)*
 
-___
-<br/>
-### Work Experience :
-* Site IT Infra Lead at NXP Semiconductors (M) Sdn. Bhd., Petaling Jaya (October 2019 – Present).
-	* Providing my support in managing infrastructure services delivery management, handling P1 incidents and root cause analysis to prevent re-occurrence.
-	* Involved in projects focusing on Cyber Security and other projects which involves Infrastructure setup.
-* Finance Automation Intern at Intel Technology Sdn. Bhd., Penang (February 2018 to July 2018, extended support as part time employee).
-	* Experience in automating day to day task of Finance employee related to Microsoft Excel - VBA, SAP – Scripting, Worksoft Certify and Data Analysis.
-* Junior Marketing Information System (MIS) Executive – IT Department, The Store (M) SDN. BHD (May 2017 – August 2017).
-	* Provided Level 1 IT support, handled troubleshooting and maintenances of the sever, price changes in the system, as well as monitoring POS/ Cashier counter.
-* Tuition Tutor and Admin – Tangkas Tuition Centre (December 2012 – April 2013).
-	* Provided admin support and teaching support for all level students including secondary school students on Additional Mathematics, alongside tutoring primary school students.
+**Core Responsibilities:**
+- Infrastructure services delivery management and P1 incident handling
+- Disaster Recovery planning, testing, and implementation (80%+ success rate)
+- Infrastructure projects: upgrades, migrations, and new deployments
+- Root cause analysis and preventive measures implementation
+- Cross-functional collaboration with global IT teams
 
-<br/><br/>
-___
+**Key Achievements & Adaptability:**
+- 🔄 **Rapidly adapted from traditional infrastructure to cloud technologies** - self-learned Azure, AWS, and automation tools
+- 🔐 **Led cybersecurity initiatives** - implemented security hardening and compliance measures
+- 🤖 **Drove automation transformation** - developed PowerShell and Python scripts to automate repetitive tasks
+- 📊 **Mastered monitoring platforms** - quickly learned Splunk, Azure Monitor, and ELK Stack for proactive issue detection
+- 🌐 **Expanded networking expertise** - gained hands-on experience with Cisco, Fortinet, and Palo Alto technologies
+- 💾 **Infrastructure modernization** - led virtualization projects using VMware and Hyper-V
 
-__Knowledge__
+---
 
-___
-<br/> 
-### Education : 
-* Certified Ethical Hacker (Master), EC Council, 2020 to 2021.
-* B. Sc. Computer Science (Hons.), Universiti Sains Malaysia, 2014 to 2019.
-	* GCPA 3.44.
-	* Dean’s List Award in 1st, 4th, 7th Semester.
-* One Year Matriculation Programme, Kolej Matrikulasi Kedah, 2013 to 2014.
-	* GCPA 4.00.
-	* MUET: BAND 3.
-* SPM and PMR, SMK Maxwell, 2008 to 2012.
-	* SPM : 4A’S (2A 2A-), 4B’S (3B+ 1B).
-	* PMR : 6A’S 2B’S.
+### **Finance Automation Intern → Part-Time Employee**
+**Intel Technology Sdn. Bhd.** | Penang, Malaysia  
+*February 2018 – July 2018 (Extended as part-time)*
 
-<br/><br/>
-___
+**Responsibilities:**
+- Automated finance department workflows using VBA, SAP Scripting, and Worksoft Certify
+- Data analysis and process optimization for Excel-based operations
+- Reduced manual effort by automating repetitive daily tasks
 
-__Leadership Experience__
+**Adaptability Highlight:** Quickly learned multiple automation platforms (VBA, SAP, Worksoft Certify) within internship period
 
-___
-<br/> 
-### Leadership Experience : 
-* AJK Tertinggi, Ekspo Kerjaya dan Pendidikan 2016 (EKSPEN), USM
-* Assistant Exco, MPD Tekun, USM
-* Vise-President, Prefect Board, SMK Maxwell (2012)
-* President, Kelab Sains Kemanusian, SMK Maxwell
-* Treasurer, Kelab Rukun Negara, Kadet Remaja Sekolah (KRS), Badminton, SMK Maxwell
-* Vise-President, Librarian, SK Batu 4 (1) Jalan Ipoh, Kuala Lumpur
+---
 
-<br/><br/>
-___
+### **Junior Marketing Information System (MIS) Executive**
+**The Store (M) SDN. BHD** | IT Department  
+*May 2017 – August 2017*
 
-__How Can You Reach Out To Me__
+**Responsibilities:**
+- Level 1 IT support and server troubleshooting
+- System maintenance and POS/cashier counter monitoring
+- Price changes and retail system management
 
-___
-<br/> 
-### Contact Information : 
-* Mobile Number : +6014-641 1552
-* Email         : 
-[sahil_17@yahoo.com](mailto:sahil_17@yahoo.com "Mail to sahil_17@yahoo.com")
-*  LinkedIn      : 
-[Sahil's LinkedIn Profile](https://www.linkedin.com/in/sahil177795/ "My LinkedIn Profile")
+---
 
-<br/><br/>
-___
-The End!
-Bye World :-)
-___
+## 🎓 Education & Certifications
+
+### **Education:**
+- **B.Sc. Computer Science (Hons.)** - Universiti Sains Malaysia (2014-2019)  
+  CGPA: **3.44** | Dean's List Award (1st, 4th, 7th Semester)
+- **Matriculation Programme** - Kolej Matrikulasi Kedah (2013-2014)  
+  CGPA: **4.00** | MUET: Band 3
+
+### **Professional Certifications:**
+- **EC-Council Certified Ethical Hacker (Master)** - 2020-2021
+- Multiple cloud and security certifications demonstrating continuous learning mindset
+
+---
+
+## 🛠️ Technical Skills
+
+### **Core Competencies:**
+- **Infrastructure Management** - Server administration, virtualization, storage, networking
+- **Security** - Ethical hacking, vulnerability assessment, security hardening, compliance
+- **Automation & Scripting** - PowerShell, Python, VBA, Bash (self-taught)
+- **Cloud Technologies** - Azure, AWS, hybrid cloud architectures (learned on-the-job)
+- **Monitoring & Analytics** - Splunk, Azure Monitor, ELK Stack, performance tuning
+
+### **Technologies & Tools:**
+**Virtualization:** VMware, Hyper-V  
+**Security Tools:** CrowdStrike, Symantec, Nessus, firewalls  
+**Networking:** Cisco, Fortinet, Palo Alto Networks  
+**Cloud Platforms:** Azure, AWS, Google Cloud basics  
+**Automation:** PowerShell, Python, Ansible basics, Terraform basics  
+**Programming:** C#, C++, Java, SQL, Visual Basic, Python  
+**Methodologies:** ITIL, Incident Management, Change Management, DR/BC Planning
+
+### **Languages:**
+- English (Fluent)
+- Malay (Fluent)
+- Tamil (Conversational)
+
+---
+
+## 💡 Key Projects & Accomplishments
+
+### **Disaster Recovery Framework Implementation**
+- Designed and executed DR testing procedures with 80%+ success rate
+- Developed comprehensive recovery documentation and runbooks
+- Coordinated cross-team DR exercises and continuous improvement initiatives
+
+### **Infrastructure Automation & Optimization**
+- Created PowerShell automation scripts reducing manual effort by 60%+
+- Implemented monitoring solutions for proactive incident prevention
+- Developed automated reporting and compliance checking tools
+
+### **Security Hardening Initiatives**
+- Led security assessment and remediation projects
+- Implemented endpoint protection and threat detection systems
+- Conducted security awareness training for technical teams
+
+### **Cloud Migration & Hybrid Infrastructure**
+- Participated in cloud adoption and migration projects
+- Implemented hybrid infrastructure solutions
+- Optimized cloud resource utilization and cost management
+
+---
+
+## 🎖️ Leadership Experience
+
+- **AJK Tertinggi** - Ekspo Kerjaya dan Pendidikan (EKSPEN), USM
+- **Assistant Exco** - MPD Tekun, USM
+- **Vice-President** - Prefect Board, SMK Maxwell (2012)
+- **President** - Kelab Sains Kemanusian, SMK Maxwell
+- **Treasurer** - Multiple clubs including Kelab Rukun Negara, KRS, Badminton (SMK Maxwell)
+- **Vice-President** - Librarian, SK Batu 4 (1) Jalan Ipoh, Kuala Lumpur
+
+---
+
+## 🌟 What Sets Me Apart
+
+**🔥 Continuous Learner:** Consistently self-learn new technologies to stay relevant - from traditional IT to cloud, automation, and modern DevOps practices.
+
+**🎯 Adaptability Champion:** Proven track record of quickly mastering new tools and platforms across diverse technology domains.
+
+**🤝 Team Player:** Strong collaboration skills with ability to work independently or lead team initiatives.
+
+**📈 Growth Mindset:** Not limited by current skillset - actively seek challenges that require learning new technologies.
+
+**💪 Well-Rounded:** Balance of technical expertise, security knowledge, automation skills, and soft skills (communication, leadership, organization).
+
+---
+
+## 📫 Let's Connect!
+
+I'm always open to discussing new opportunities, technology trends, or collaboration on interesting projects!
+
+- 📱 **Mobile:** +6014-641 1552
+- 📧 **Email:** sahil_17@yahoo.com
+- 💼 **LinkedIn:** [linkedin.com/in/sahil177795](https://www.linkedin.com/in/sahil177795/)
+
+---
+
+### 🙏 Thank you for visiting my e-Resume!
+
+*Last Updated: December 2025*
+
+---
+
+> 💡 **Note:** This is an expanded version of my resume with more details about my journey, adaptability, and continuous learning approach. For a concise overview, please refer to my PDF resume.
