@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: "en-US" }}">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
+    <title>{{ site.title | default: site.github.repository_name }}</title>
+    <meta name="description" content="{{ site.description }}">
+  </head>
+  <body>
+    <div class="wrapper">
+      <section>
+        {{ content }}
+      </section>
+    </div>
+
+    <!-- Theme Toggle Button -->
+    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle theme">
+      <span class="sun-icon">☀️</span>
+      <span class="moon-icon">🌙</span>
+    </button>
+
+    <script>
+      // Theme Toggle Functionality
+      const toggleButton = document.getElementById('theme-toggle');
+      const body = document.body;
+      
+      // Check for saved theme preference or default to 'light'
+      const currentTheme = localStorage.getItem('theme') || 'light';
+      body.setAttribute('data-theme', currentTheme);
+      
+      toggleButton.addEventListener('click', () => {
+        const theme = body.getAttribute('data-theme');
+        const newTheme = theme === 'light' ? 'dark' : 'light';
+        
+        body.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+      });
+    </script>
+  </body>
+</html>
